@@ -1,0 +1,28 @@
+#portfolio {
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 26px;
+    padding-top: 10px;
+    padding-right: 25px;
+    background-color: #2f2e57;
+    border-radius: 5px;
+    box-shadow: 0 0 40px -3px rgb(88, 1, 88);
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.portfolio-img-hover:hover {
+    box-shadow: 0 0 40px -3px gray;
+}
+
+.project-fitting {
+    margin: 20px;
+}
+
+.col-caption {
+    text-align: center;
+    font-family: 'Josefin Sans';
+}

@@ -1,0 +1,278 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h3 {
+    color: #57809b;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.resume {
+    width: 870px;
+    background: #fbfbfb;
+    margin: 20px auto;
+    border: 1px solid #bbb;
+    box-shadow: 0 0 40px -3px #bbb;
+    position: relative;
+    display: flex;
+}
+
+.resume .base,
+.resume .func {
+    box-sizing: border-box;
+    float: left;
+}
+
+.resume .base>div,
+.resume .func>div {
+    padding-bottom: 10px;
+}
+
+.resume .base {
+    width: 225px;
+    padding: 30px 15px;
+    background: rgba(238, 238, 238, 0.6);
+}
+
+.resume .base .profile {
+    background: linear-gradient(to bottom right, #6e7f80, #536872, #708090, #bbb, #536878, #36454f);
+    padding: 30px 15px 5px 15px;
+    margin: -30px -15px 45px -15px;
+    position: relative;
+    z-index: 2;
+    font-family: "Josefin Sans";
+}
+
+.resume .base .profile .photo img {
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.resume .base .profile .info {
+    text-align: center;
+    color: rgb(212, 226, 187);
+}
+
+.resume .base .profile .info .name {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.resume .base .about {
+    font-family: 'Titillium Web';
+}
+
+.resume .base .contact div {
+    font-family: 'Share Tech Mono';
+    line-height: 24px;
+    float: left;
+}
+
+.resume .base .contact div i {
+    color: #8d9e78;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.resume .base .contact div span {
+    position: relative;
+}
+
+.resume .func {
+    width: 645px;
+    padding: 30px 25px;
+}
+
+.resume .func h3 {
+    transition-duration: 0.3s;
+    margin-top: 0;
+}
+
+.resume .func h3 i {
+    color: #fcfcfc;
+    background: #8d9e78;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    line-height: 42px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 8px;
+    transition-duration: 0.3s;
+}
+
+.resume .func .work,
+.resume .func .edu {
+    float: left;
+}
+
+.resume .func .work small,
+.resume .func .edu small {
+    display: block;
+    opacity: 0.7;
+}
+
+.resume .func .work ul li,
+.resume .func .edu ul li {
+    position: relative;
+    margin-left: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.resume .func .work ul li span,
+.resume .func .edu ul li span {
+    transition-duration: 0.3s;
+    font-family: 'Titillium Web';
+}
+
+.resume .func .work {
+    width: 42%;
+}
+
+.resume .func .edu {
+    width: 58%;
+}
+
+.resume .func .container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.resume .func .skills-prog ul {
+    margin-left: 15px;
+}
+
+.resume .func .skills-prog ul li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+
+.resume .func .skills-prog ul li span {
+    display: block;
+    width: 120px;
+}
+
+.resume .func .skills-prog ul li .skills-bar {
+    background: #cdcdcd;
+    height: 2px;
+    width: calc(100% - 120px);
+    position: relative;
+    border-radius: 2px;
+}
+
+.resume .func .skills-prog li .skills-bar .html {
+    width: 92%;
+}
+
+.resume .func .skills-prog li .skills-bar .css {
+    width: 86%;
+}
+
+.resume .func .skills-prog li .skills-bar .js {
+    width: 73%;
+}
+
+.resume .func .skills-prog li .skills-bar .jquery {
+    width: 68%;
+}
+
+.resume .func .skills-prog li .skills-bar .react {
+    width: 65%;
+}
+
+.resume .func .skills-prog li .skills-bar .bootstrap {
+    width: 84%;
+}
+
+.resume .func .skills-prog li .skills-bar .bar {
+    position: absolute;
+    top: -1px;
+    height: 4px;
+    background: #43582a;
+    box-shadow: 0 0 0 #8d9e78;
+    border-radius: 5px;
+}
+
+.resume .func .skills-soft ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.resume .func .skills-soft ul li {
+    position: relative;
+}
+
+.resume .func .skills-soft ul li svg {
+    width: 95%;
+    fill: transparent;
+    transform: rotate(-90deg);
+}
+
+.resume .func .skills-soft ul li svg circle {
+    stroke-width: 1px;
+    stroke: #cdcdcd;
+}
+
+.resume .func .skills-soft ul li svg .cbar {
+    stroke-width: 3px;
+    stroke: #8d9e78;
+    stroke-linecap: round;
+}
+
+.resume .func .skills-soft ul li span,
+.resume .func .skills-soft ul li small {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 52%;
+    transition-duration: 0.3s;
+}
+
+.resume .func .skills-soft ul li span {
+    top: 40%;
+}
+
+.resume .func .interests-items {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume .func .interests-items div {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.resume .func .interests-items div i {
+    font-size: 45px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #8d9e78;
+    transition-duration: 0.3s;
+}
+
+.resume .func .interests-items div span {
+    display: block;
+    font-family: 'Cormorant Garamond';
+    font-weight: bolder;
+}
