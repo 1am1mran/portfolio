@@ -2,7 +2,6 @@ import React from 'react';
 import ResumeBase from './ResumeBase';
 import ResumeWork from './ResumeWork';
 import ResumeProgrammingSkills from './ResumeProgrammingSkills';
-// import ResumeSoftwareSkills from './ResumeSoftwareSkills';
 import ResumeIntrests from './ResumeIntrests';
 
 const Resume = () => {
@@ -15,8 +14,6 @@ const Resume = () => {
         <ResumeWork />
 
         <ResumeProgrammingSkills />
-
-        {/* <ResumeSoftwareSkills /> */}
 
         <ResumeIntrests />
       </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import "../../styles/resume.css"
 import ResumeProfile from "../../Images/profile.jpg";
 
-
 const ResumeBase = () => {
   return (
     <div className="base">
