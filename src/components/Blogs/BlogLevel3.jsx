@@ -1,6 +1,7 @@
 import React from 'react';
 import Blog7 from "../../Images/Blogs/blog7.png";
-import Blog8 from "../../Images/Blogs/blog8.png";
+import Blog10 from "../../Images/Blogs/blog10.png";
+import Blog9 from "../../Images/Blogs/blog9.png";
 
 const BlogLevel3 = () => {
   return (
@@ -23,13 +24,14 @@ const BlogLevel3 = () => {
 
       <div className="col-md-4">
         <div className="img-thumbnail rounded project-fitting">
-          <a href="#"
+          <a href="https://medium.com/@1am1mran/a-mute-lover-33f2d15a2d99"
             target="_blank" rel="noopener noreferrer" >
-            <img src={Blog8} alt="" className="portfolio-img-hover" />
+            <img src={Blog10} alt="" className="portfolio-img-hover" />
           </a>
           <div className="col-caption">
             <em>
-              Working on some other blogs. You can suggest me an Idea or topic to write a blog On, Thank You!
+              The first ever love story i've ever wrote. It's an Intresting attempt to show how a boy can't express his love
+              towards a girl.
             </em>
           </div>
         </div>
@@ -37,13 +39,14 @@ const BlogLevel3 = () => {
 
       <div className="col-md-4">
         <div className="img-thumbnail rounded project-fitting">
-          <a href="#"
+          <a href="https://medium.com/@1am1mran/my-love-story-b0271b1c0540"
             target="_blank" rel="noopener noreferrer" >
-            <img src={Blog8} alt="" className="portfolio-img-hover" />
+            <img src={Blog9} alt="" className="portfolio-img-hover" />
           </a>
           <div className="col-caption">
             <em>
-              Working on some other blogs. You can suggest me an Idea or topic to write a blog On, Thank You!
+              Yet another love story. It's a dark and Intense love story, i woul definetly recommend you to read this awesome
+              love story atleast once.
             </em>
           </div>
         </div>
